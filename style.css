@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card-container {
+  align-items: justify;
+  font-size: 17px;
+  width: 250px;
+  height: 400px;
+}
+
+/* pirveli  */
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 30px;
+}
+
+/* meore */
+
+.blue {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+}
+
+/* mesame  */
+
+.green {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 30px;
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+/* button */
+
+button {
+  border-radius: 30px;
+  border: none;
+  width: 120px;
+  padding: 15px;
+  background-color: white;
+}
+
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+  background: transparent;
+  color: white;
+  transition: all 0.5s;
+  border: 2px solid white;
+}
